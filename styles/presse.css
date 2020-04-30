@@ -1,0 +1,47 @@
+.presse{
+  width: 25vw;
+  display: flex;
+  flex-wrap: wrap;
+}
+.mainright{
+  padding: 4vw}
+.txtpresse{
+  width: 100%
+}
+.cpresse{
+  display: flex;
+  color: black;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.titlepress{
+  font-weight: 900;
+  text-decoration: underline;
+  margin: 0;
+  font-size: 130%;
+  width: 70%
+}
+.datepress{
+  font-size: 130%
+  margin: 0;
+  text-align: right;
+  padding: 0;
+  margin: 0;
+  width: 30%
+}
+.textpress{
+  font-size: 150%
+}
+.filetpress{
+  width: 100%;
+  border-top: 2px solid black
+}
+.linkpress{
+  color: black;
+  margin-bottom: 90px;
+  margin-top: 20px;
+  font-weight: 900;
+  font-size: 140%;
+  color: #00C3DE
+
+}

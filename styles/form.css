@@ -1,0 +1,30 @@
+.formu{
+  border-bottom: 2px black solid;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  width:24vw;
+  margin-right: 2vw;
+  font-size: 25px;
+  font-family: SpaceGrotesk;
+  margin-bottom: 35px;
+}
+.formu:focus{
+outline: none;
+color: black}
+#mform{
+  border: 2px solid black;
+  width: 50vw;
+  height: 300px;
+  padding: 0;
+  padding: 20px;
+  line-height: 130%;
+  margin-bottom: 10px
+  }
+}
+form{
+  width: 65vw
+}
+.mainright{
+  width: 65vw
+}

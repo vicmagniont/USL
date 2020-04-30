@@ -1,0 +1,157 @@
+
+body{
+  margin: 0;
+  font-family: SpaceGrotesk;
+  height: 100vh;
+  display: flex;
+
+}
+.homebody{
+  background: rgb(42,35,68);
+  background: linear-gradient(209deg, rgba(42,35,68,1) 0%, rgba(0,195,222,1) 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  color: white;
+  vertical-align: middle;
+  align-items: center;
+
+}
+header{
+  height: 70px;
+  display: flex;
+  vertical-align: middle;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  margin-left: 20px;
+  padding-right: 50px;
+  top: 20px
+}
+.logo{
+  width: 300px;
+  padding-left: 20px;
+  padding-top: 20px
+}
+.clogo{
+  flex-grow: 15
+}
+.menu{
+  flex-grow: 2
+}
+a{
+  color: inherit;
+  text-decoration: none;
+}
+
+.mainheader{
+  color: white
+}
+.blocleft{
+  padding-left: 70px;
+  width: 49%;
+  max-height: 100vh;
+  padding-top: 30px
+}
+.invisible{
+visibility: hidden ;
+}
+.biglogo{
+  width: 30vw
+}
+
+#homeschema{
+  width: 48vw;
+  padding-bottom: 40px
+}
+button{
+  border-radius: 100px;
+  width: 200px;
+  height: 50px;
+  font-family: SpaceGrotesk;
+  font-size: 20px;
+  background: rgba(255, 255, 255, 0);
+  border: 2px white solid;
+  color: white
+}
+.buttonsubmit{
+  border-radius: 100px;
+  width: 200px;
+  height: 50px;
+  font-family: SpaceGrotesk;
+  font-size: 20px;
+  background: rgba(255, 255, 255, 0);
+  border: 2px #00C3DE solid;
+  color: #00C3DE;
+  align-self: flex-end;
+  font-weight: 900
+}
+header{
+  z-index: 999
+}
+
+.blocright{
+  top: 50vw;
+  width: 35vw;
+  padding-left: 2vw
+}
+.reverse{
+  font-size: 20px;
+  padding-left: 30px;
+  padding-right: 30px
+}
+.reverselogistic{
+  width: 45vw;
+  display: flex;
+vertical-align: middle;
+align-items: center;
+align-content: center;
+justify-content: center;
+}
+.colorblock{
+  background: rgb(42,35,68);
+  background: linear-gradient(209deg, rgba(42,35,68,1) 0%, rgba(0,195,222,1) 100%);
+  padding-left: 50px;
+  padding-right: 50px;
+
+width: 35vw;
+height: 100vh;
+color: white;
+display: flex;
+vertical-align: middle;
+align-items: center;
+align-content: center;
+flex-wrap: wrap;
+}
+.mainright{
+  display: flex;
+  vertical-align: middle;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 80px
+
+
+}
+iframe{
+  height: 30vw
+}
+.leftimage{
+  height: 100vh;
+  width: 35vw;
+  object-fit: cover;
+
+}
+.slideflex{
+  display: flex;
+}
+.rightblock{
+  padding: 100px
+}
+#storytext1{
+  width: 30vw
+}

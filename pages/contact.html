@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>urban logistic and solution</title>
+    <link rel="stylesheet" type="text/css" href="../styles/style.css">
+    <link rel="stylesheet" type="text/css" href="../styles/fontmaster.css">
+    <link rel="stylesheet" type="text/css" href="../styles/typo.css">
+    <link rel="stylesheet" type="text/css" href="../styles/hover.css">
+    <link rel="stylesheet" type="text/css" href="../styles/slider.css">
+    <link rel="stylesheet" type="text/css" href="../styles/hamburger.css">
+    <link rel="stylesheet" type="text/css" href="../styles/form.css">
+    <link rel="stylesheet" type="text/css" href="../styles/query.css">
+
+
+  </head>
+
+  <body class="normalbody">
+    <!-- Menu Desktop -->
+    <header class="normalheader">
+      <div class="clogo">
+        <a href="../index.html"> <img class="logo " src="../images/logo.svg" alt="logo"></a>
+      </div>
+      <a class="menu black" href="../index.html">Accueil</a>
+      <a class="menu black" href="../pages/histoire.html">Notre Histoire</a>
+      <a class="menu black" href="../pages/video.html">Notre Vidéo</a>
+      <a class="menu black" href="../pages/presse.html">Presse</a>
+      <a class="menu activmenu black" href="../pages/contact.html">Nous contacter</a>
+    </header>
+    <!-- Menu Mobile -->
+    <nav role="navigation" class="navmobile normalnavmobile">
+      <div id="menuToggle">
+        <input type="checkbox" />
+        <span></span>
+        <span></span>
+        <span></span>
+        <ul id="menusmartphone">
+          <a href="../pages/accueil.html" class="a2"><li>Accueil</li></a><br>
+          <a href="../pages/histoire.html" class="a2"><li>Notre histoire</li></a><br>
+          <a href="../pages/video.html" class="a2"><li>Notre Vidéo</li></a><br>
+          <a href="../pages/presse.html" class="a2"><li>Presse</li></a><br>
+          <a href="../pages/contact.html" class="activmenu2"><li>Nous contacter</li></a>
+        </ul>
+      </div>
+    </nav>
+    <!-- Content -->
+  <div class="colorblock">
+    <p class="bigtext coord">
+      +1 415.996.4149<br>
+      360 Pine St. Fl 3<br>
+      San Francisco. CA. 94104<br><br>
+      hello@bornandbredbrand.com
+    </p>
+  </div>
+                <div class="mainright">
+                  <p class="bigtext coord" id="righttxt">
+                    +1 415.996.4149<br>
+                    360 Pine St. Fl 3<br>
+                    San Francisco. CA. 94104<br>
+                    hello@bornandbredbrand.com
+                  </p>
+
+                  <p class="bigtext txtcontact">Vous voulez nous contacter ?<br>Ce formulaire est fait pour ça.</p>
+                  <form action="/action_page.php">
+                    <input class="formu" type="text" name="nom" value="Votre nom" onfocus="if(this.value=='Votre nom')this.value='';"onblur="myBlur(this)"/>
+                    <input type="text" id="lname" name="lname" value="Email" class="formu" onfocus="if(this.value=='Email')this.value='';"onblur="myBlur(this)">
+                    <input type="text" id="sname" name="lname" value="Sujet" class="formu" onfocus="if(this.value=='Sujet')this.value='';"onblur="myBlur(this)"><br>
+                    <p class="yolo">Votre message</p><br>
+                    <textarea type="text" id="mform" name="lname" value="Message" class="formu "></textarea><br><br>
+
+                    <input type="submit" value="Soumettre" class="buttonsubmit">
+                  </form>
+                 </div>
+
+<script type="text/javascript" src="../styles/slide.js"></script>
+<script type="text/javascript">function myFocus(element) {
+if (element.value == element.defaultValue)
+{ element.value = ''; } }
+
+function myBlur(element)
+{ if (element.value == '')
+{ element.value = element.defaultValue; } }</script>
+  </body>
+
+</html>

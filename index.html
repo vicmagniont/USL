@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>urban logistic and solution</title>
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <link rel="stylesheet" type="text/css" href="styles/fontmaster.css">
+    <link rel="stylesheet" type="text/css" href="styles/typo.css">
+    <link rel="stylesheet" type="text/css" href="styles/hover.css">
+    <link rel="stylesheet" type="text/css" href="styles/slider.css">
+    <link rel="stylesheet" type="text/css" href="styles/query.css">
+    <link rel="stylesheet" type="text/css" href="styles/hamburger.css">
+    <link rel="stylesheet" type="text/css" href="styles/form.css">
+
+  </head>
+
+  <body class="homebody">
+    <!-- Menu Desktop -->
+    <header class="mainheader">
+      <div class="clogo">
+        <img class="logo invisible" src="images/logo.svg" alt="logo">
+      </div>
+      <a class="menu activmenu" href="index.html">Accueil</a>
+      <a class="menu" href="pages/histoire.html">Notre Histoire</a>
+      <a class="menu" href="pages/video.html">Notre Vidéo</a>
+      <a class="menu" href="pages/presse.html">Presse</a>
+      <a class="menu" href="pages/contact.html">Nous contacter</a>
+    </header>
+    <!-- Menu Mobile -->
+    <nav role="navigation" class="navmobile mainnavmobile">
+      <div id="menuToggle">
+        <input type="checkbox" />
+        <span></span>
+        <span></span>
+        <span></span>
+        <ul id="menusmartphone">
+          <a href="pages/accueil.html" class="activmenu2"><li>Accueil</li></a><br>
+          <a href="pages/histoire.html" class="a2"><li>Notre histoire</li></a><br>
+          <a href="pages/video.html" class="a2"><li>Notre Vidéo</li></a><br>
+          <a href="pages/presse.html" class="a2"><li>Presse</li></a><br>
+          <a href="pages/contact.html" class="a2"><li>Nous contacter</li></a>
+        </ul>
+      </div>
+    </nav>
+    <!-- Content -->
+    <div class="blocleft">
+      <img class="biglogo" src="images/logo.svg" alt="logo">
+      <p class="bigtext" id="intro">Faites le choix pour vos villes et vos entreprises, d'opter pour une solution propre de Logistique Urbaine.</p>
+      <button class="homebutton" onclick="window.location.href = 'pages/histoire.html';">En savoir plus</button>
+                <!-- Slideshow container -->
+                <div class="slideshow-container">
+                  <div class="mySlides fade">
+                    <img src="images/1.jpg" class="imgslide">
+                  </div>
+                  <div class="mySlides fade">
+                    <img src="images/2.jpg" class="imgslide">
+                  </div>
+                  <div class="mySlides fade">
+                    <img src="images/3.jpg" class="imgslide">
+                  </div>
+                  <div class="mySlides fade">
+                    <img src="images/4.jpg" class="imgslide">
+                  </div>
+                  <div class="mySlides fade">
+                    <img src="images/5.jpg"class="imgslide">
+                  </div>
+                </div>
+                <!-- The dots/circles -->
+                <div style="text-align:center" class="dots">
+                  <span class="dot" onclick="currentSlide(1)"></span>
+                  <span class="dot" onclick="currentSlide(2)"></span>
+                  <span class="dot" onclick="currentSlide(3)"></span>
+                  <span class="dot" onclick="currentSlide(4)"></span>
+                  <span class="dot" onclick="currentSlide(5)"></span>
+                </div>
+    </div>
+    <div class="blocright">
+      <p class="bigtext underline" id="schemastxt">Un système de transport multimodal urbain et écologique</p>
+      <div class="homeschema">
+        <img src="images/schema.svg" alt="Reverse logistic" id="homeschema">
+        <div class="reverselogistic">
+          <div class="arrow"></div>
+          <div class="arrow arrow2"></div>
+          <p class="reverse">Reverse logistic <br> produits de recyclage et consignes</p>
+          <div class="reversearrow reversearrow1"></div>
+          <div class="reversearrow"></div>
+        </div>
+      </div>
+    </div>
+
+<script type="text/javascript" src="styles/slide.js">
+
+</script>
+  </body>
+
+</html>

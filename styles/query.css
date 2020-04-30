@@ -1,0 +1,126 @@
+@media (min-width: 1000px) {
+  .navmobile{
+    display: none;
+
+  }
+  #righttxt{
+    display: none
+  }
+}
+@media (max-width: 1300px) {
+  a.menu{
+font-size: 70%;
+margin-left: 20px;
+margin-right: 20px
+}
+
+}
+
+@media (max-width: 1000px) {
+  header{
+display: none;}
+.navmobile{
+  display: block;
+  }
+  .homebody{
+    flex-wrap: wrap;
+  }
+.blocleft{
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0
+
+}
+.biglogo{
+  width: 60vw;
+  margin-left: 20vw;
+  margin-right: 20vw;
+  margin-bottom: 10vw;
+  align-self: center;
+
+}
+.bigtext{
+  font-size: 50px
+}
+#intro{
+  width: 80vw;
+  margin-left: 10vw
+}
+.homebutton{
+align-self: flex-start;}
+button{
+  width: 300px;
+  height: 75px;
+  font-size: 30px;
+  margin-left: 10vw
+
+}
+.slideshow-container{
+max-width: 90vw;
+left: 0;
+top: 100px
+  }
+  .mySlides {
+    width: 90vw;
+
+  }
+.blocright{
+  display: none
+}
+.dot{
+  width: 50px;
+  height: 50px
+}
+.dots{
+  width: 40vw;
+  margin-left: 30vw;
+  display: flex;
+justify-content: space-between;
+top: 0}
+.colorblock{
+  display: none
+}
+.mainright{
+  width: 100vw;
+  padding-right: 50px;
+  padding-left: 50px
+
+}
+.bigtxt{
+  width: 100%
+}
+.formu{
+  width: 100%;
+  font-size: 38px;
+}
+.yolo{
+  font-size: 15px
+}
+#mform{
+  width: 100%;
+  height: 350px
+}
+.buttonsubmit{
+  width: 300px;
+  height: 75px;
+  font-size: 30px;
+
+}
+.presse{
+  width: 90vw;}
+  .titlepress{
+    font-size:35px
+
+}
+.textpress{
+  font-size:30px
+}
+.linkpress{
+  font-size: 35px
+}
+.mainright{
+  display: block;
+  padding-top: 200px
+}
+}

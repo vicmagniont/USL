@@ -1,0 +1,162 @@
+.bigtext{
+  font-size: 2vw;
+  line-height: 130%;
+  font-weight: 100;
+}
+#intro{
+  width: 40vw;
+  z-index: 99;
+  position: relative;
+}
+button{
+  font-weight: 900;
+  line-height: 130%;
+  position: relative;
+  z-index: 99;
+
+}
+.buttonsubmit{
+  font-weight: 900;
+  line-height: 150%;
+  position: relative;
+  z-index: 99;
+
+}
+.reverse{
+  text-align: center;
+}
+.underline{
+  text-decoration: underline;
+  padding-bottom: 50px
+}
+.menu:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #fff;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+a.black:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: black;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.menu:hover:after {
+  width: 80%;
+  left: 10%;
+}
+@media screen and (max-height: 300px) {
+	ul {
+		margin-top: 40px;
+	}
+}
+a {
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+}
+a.menu{
+  text-align: center;
+  margin-left: 5px;
+  margin-right: 5px
+}
+.mainheader{
+  margin-right: 100px
+}
+header{
+  font-size: 22px;
+
+}
+.activmenu:after{
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  position: absolute;
+  background: #fff;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 80%;
+  left: 10%;
+
+}
+.activmenu.black:after{
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  position: absolute;
+  background: #000;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 80%;
+  left: 10%;
+
+}
+.activmenu2:after{
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  position: absolute;
+  background: #00C3DE;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 80%;
+  left: 10%;
+  top: 150px
+
+}
+.arrow{
+  width: 30px;
+  height: 30px;
+  border-top: 2px solid white;
+  border-right: 2px solid white;
+  transform: rotateZ(45deg);
+  padding: 0;
+}
+.arrow2{
+transform: rotateZ(45deg) translate(-10px, 10px);}
+.reversearrow{
+  width: 30px;
+  height: 30px;
+  border-top: 2px solid white;
+  border-right: 2px solid white;
+  transform: rotateZ(-135deg);
+  padding: 0;
+}
+.reversearrow1{
+  transform: rotateZ(-135deg) translate(-10px, 10px);
+}
+.txtcontact{
+}
+#righttxt{
+font-size: 35px}
+
+.coord{
+  font-size: 2vw
+}
+.yolo{
+  font-size:25px;
+  padding: 0;
+  margin: 0;
+}
+.black{
+  color: black
+}
+form{
+  width: auto;
+}

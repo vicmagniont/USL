@@ -1,0 +1,15 @@
+button{
+transition-timing-function: ease-in-out;
+transition: 0.1s
+}
+button:hover{
+  background: rgba(255, 255, 255, 1);
+  color: #00C3DE;
+  border: #00C3DE 2px solid
+}
+.buttonsubmit:hover{
+  background: rgb(42,35,68);
+  background: linear-gradient(209deg, rgba(42,35,68,1) 0%, rgba(0,195,222,1) 100%);
+  color: white;
+  border: 0
+}
